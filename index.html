@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="container">
 
     <nav>
@@ -47,60 +47,76 @@
 
     </div>
   </header>
-
+  
   <section class="featured">
-    <ul>
-        <li>Deviant Art</li>
-        <li>eBay</li>
-        <li>Mcdo</li>
-        <li>Addidas</li>
-        <li>EA</li>
-    </ul>  
+  <div class="container">
+    <div class="row">
+    <ul class="list-inline">
+        <li><a href="#" class="deviant-art">Deviant Art</a></li>
+        <li><a href="#" class="ebay">Ebay</a></li>
+        <li><a href="#" class="mcdo">Mcdo</a></li>
+        <li><a href="#" class="addidas">Addidas</a></li>
+        <li><a href="#" class="ea">EA</a></li>
+    </ul>
+    <div class="clearfix"></div> 
+  </div>
+  </div>   
   </section>
 
   <main>
     <div class="container">
 
-    <section class="flow">
+    <section class="flow text-center">
+      <div class="row">
       <article class="col-lg-4">
         <img src="images/hieroglyph.png" alt="">
-        <h3>Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel.</p>
       </article>
       <article class="col-lg-4">
         <img src="images/hieroglyph-1.png" alt="">
-        <h3>Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel.</p>
       </article>
       <article class="col-lg-4">
         <img src="images/hieroglyph-2.png" alt="">
-        <h3>Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel.</p>
       </article>
+      </div>
     </section>
 
     <section class="projects">
-      Slider here.
+      <h2><i></i>Selected projects</h2>
     </section>
 
 
     <section class="blog col-lg-6">
+      <h2><i></i>From our blog</h2>
       <article>
-        <img src="images/hieroglyph.png" alt="">
-        <h3>Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
+        <img class="col-lg-4 thumbnail"src="http://placehold.it/130x94" alt="">
+        <div class="blog-text col-lg-8">
+          <h3>Heading 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi</p>
+          <p>12/30/14</p>
+        </div>
       </article>
+      <div class="clearfix"></div>
       <article>
-        <img src="images/hieroglyph.png" alt="">
-        <h3>Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
+        <img class="col-lg-4 thumbnail"src="http://placehold.it/130x94" alt="">
+        <div class="blog-text col-lg-8">
+          <h3>Heading 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi</p>
+          <p>12/30/14</p>
+        </div>
       </article>
     </section>
 
 
     <section class="tweet col-lg-6">
+      <h2><i></i>Our Twitter Feed</h2>
       <article>
-        <img src="/images/hieroglyph.png" alt="">
+        <img src="/images/hieroglyph.png" class="col-lg-2" alt="">
         <h3>Heading 1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis ornare dui at dapibus. Nulla vestibulum laoreet mi, eget ullamcorper lacus tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras feugiat neque ac orci imperdiet, nec imperdiet felis tristique.</p>
       </article>
@@ -120,13 +136,17 @@
   </main>
 
   <footer>
-    <p>Christopher Jensen 2013</p>
-    <ul>
-      <li>Facebook</li>
-      <li>Twitter</li>
-      <li>Linkedin</li>
-      <li>Dribbble</li>
-    </ul>
+    <div class="container">
+    <hr>
+      <p class="col-lg-6">Christopher Jensen 2013</p>
+      <ul class="list-inline col-lg-6 text-right">
+        <li><a href="#"class="facebook">Facebook</a></li>
+        <li><a href="#" class="twitter">Twitter</a></li>
+        <li><a href="#" class="linkedin">Linkedin</a></li>
+        <li><a href="#" class="dribbble">Dribbble</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>  
   </footer>
 
 

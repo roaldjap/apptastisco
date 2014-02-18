@@ -1,3 +1,159 @@
-.header{
-	background: url('../images/bg.png');
+//Typography
+h1{
+  font-size: 48px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+p{
+  font-size: 15px;
+}
+
+//Header Section
+header{
+  background: url('../images/bg.png');
+}
+
+
+
+
+//Featured Section
+.featured{
+  background: #efefef; /* Old browsers */
+  background: -moz-linear-gradient(top,  #efefef 0%, #e7e7e7 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#e7e7e7)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #efefef 0%,#e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #efefef 0%,#e7e7e7 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #efefef 0%,#e7e7e7 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #efefef 0%,#e7e7e7 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+  padding: 10px;
+  vertical-align: middle;
+
+  li{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+  }
+
+  a{
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url("../images/apptastico-asset.png");
+    padding: 20px;
+    width: 108px;
+    height: 61px;
+
+    &.deviant-art{
+      background-position: 8px -43px;
+      &:hover{
+        background-position: 8px -98px;
+      }
+    }
+    &.ebay{
+      background-position: -104px -43px;
+      &:hover{
+        background-position: -104px -98px;
+      }
+    }
+    &.mcdo{
+      background-position: -206px -43px;
+      &:hover{
+        background-position: -206px -98px;
+      }
+    }
+    &.addidas{
+      background-position: -291px -43px;
+      &:hover{
+        background-position: -291px -98px;
+      }
+    }
+    &.ea{
+      background-position: -391px -43px;
+      &:hover{
+        background-position: -391px -98px;
+      }
+    }
+  } 
+}
+
+// Flow / UX section
+.flow{
+  padding-top: 95px;
+}
+
+// Project Section
+.projects{
+  padding-top: 95px;
+  i{
+    background: url("../images/apptastico-asset.png") -1px 0px;
+    padding: 5px 11px;
+    margin-right: 10px;
+  }
+}
+
+.blog{
+  padding: 0;
+  
+  h3{
+    margin: 0 0 .5em;
+  }
+
+  i{
+    background: url("../images/apptastico-asset.png") -29px 0px;
+    padding: 5px 11px;
+    margin-right: 10px;
+  }
+}
+
+.tweet{
+  padding: 0;
+  i{
+    background: url("../images/apptastico-asset.png") -56px 0px;
+    padding: 2px 13px;
+    margin-right: 10px;
+  }
+}
+
+footer{
+  padding: 20px;
+  
+  ul{
+
+    a{
+      display: block;
+      background: url("../images/apptastico-asset.png");
+      text-indent: -9999px;
+      overflow: hidden;
+      color: transparent;
+      width: 30px;
+      height: 30px;
+      &:hover{
+        color:transparent;
+        opacity: .5;
+      }
+
+      &.facebook{
+        background-position: -86px -1px;
+      }
+      &.twitter{
+        background-position: -127px -1px;
+      }
+      &.linkedin{
+        background-position: -168px -1px;
+      }
+      &.dribbble{
+        background-position: -209px -1px;
+      }
+     
+    }
+  } 
 }

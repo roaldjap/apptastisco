@@ -1,2 +1,115 @@
-.header {
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 16px; }
+
+p {
+  font-size: 15px; }
+
+header {
   background: url("../images/bg.png"); }
+
+.featured {
+  background: #efefef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #efefef 0%, #e7e7e7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #e7e7e7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #efefef 0%, #e7e7e7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #efefef 0%, #e7e7e7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #efefef 0%, #e7e7e7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #efefef 0%, #e7e7e7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#e7e7e7',GradientType=0 );
+  /* IE6-9 */
+  padding: 10px;
+  vertical-align: middle; }
+  .featured li {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left; }
+  .featured a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url("../images/apptastico-asset.png");
+    padding: 20px;
+    width: 108px;
+    height: 61px; }
+    .featured a.deviant-art {
+      background-position: 8px -43px; }
+      .featured a.deviant-art:hover {
+        background-position: 8px -98px; }
+    .featured a.ebay {
+      background-position: -104px -43px; }
+      .featured a.ebay:hover {
+        background-position: -104px -98px; }
+    .featured a.mcdo {
+      background-position: -206px -43px; }
+      .featured a.mcdo:hover {
+        background-position: -206px -98px; }
+    .featured a.addidas {
+      background-position: -291px -43px; }
+      .featured a.addidas:hover {
+        background-position: -291px -98px; }
+    .featured a.ea {
+      background-position: -391px -43px; }
+      .featured a.ea:hover {
+        background-position: -391px -98px; }
+
+.flow {
+  padding-top: 95px; }
+
+.projects {
+  padding-top: 95px; }
+  .projects i {
+    background: url("../images/apptastico-asset.png") -1px 0px;
+    padding: 5px 11px;
+    margin-right: 10px; }
+
+.blog {
+  padding: 0; }
+  .blog h3 {
+    margin: 0 0 .5em; }
+  .blog i {
+    background: url("../images/apptastico-asset.png") -29px 0px;
+    padding: 5px 11px;
+    margin-right: 10px; }
+
+.tweet {
+  padding: 0; }
+  .tweet i {
+    background: url("../images/apptastico-asset.png") -56px 0px;
+    padding: 2px 13px;
+    margin-right: 10px; }
+
+footer {
+  padding: 20px; }
+  footer ul a {
+    display: block;
+    background: url("../images/apptastico-asset.png");
+    text-indent: -9999px;
+    overflow: hidden;
+    color: transparent;
+    width: 30px;
+    height: 30px; }
+    footer ul a:hover {
+      color: transparent;
+      opacity: .5; }
+    footer ul a.facebook {
+      background-position: -86px -1px; }
+    footer ul a.twitter {
+      background-position: -127px -1px; }
+    footer ul a.linkedin {
+      background-position: -168px -1px; }
+    footer ul a.dribbble {
+      background-position: -209px -1px; }
