@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Apptastico - We design iOS apps</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">   
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+  
 </head>
 <body>
   <header>
@@ -86,6 +89,19 @@
 
     <section class="projects">
       <h2><i></i>Selected projects</h2>
+      <ul class="slider">
+        <li><img src="http://placehold.it/215x154&text=1" /></li>
+        <li><img src="http://placehold.it/215x154&text=2" /></li>
+        <li><img src="http://placehold.it/215x154&text=3" /></li>
+        <li><img src="http://placehold.it/215x154&text=4" /></li>
+        <li><img src="http://placehold.it/215x154&text=5" /></li>
+        <li><img src="http://placehold.it/215x154&text=6" /></li>
+        <li><img src="http://placehold.it/215x154&text=7" /></li>
+        <li><img src="http://placehold.it/215x154&text=8" /></li>
+      </ul>
+       <span id="slider-prev"></span>
+       <span id="slider-next"></span>
+
     </section>
 
 
@@ -138,7 +154,7 @@
   <footer>
     <div class="container">
     <hr>
-      <p class="col-lg-6">Christopher Jensen 2013</p>
+      <p class="col-lg-6">&copy; Christopher Jensen 2013</p>
       <ul class="list-inline col-lg-6 text-right">
         <li><a href="#"class="facebook">Facebook</a></li>
         <li><a href="#" class="twitter">Twitter</a></li>
@@ -149,7 +165,20 @@
     </div>  
   </footer>
 
-
+ <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider({
+          slideWidth: 200,
+          minSlides: 2,
+          maxSlides: 4,
+          slideMargin: 60,
+          nextSelector: '#slider-next',
+          prevSelector: '#slider-prev',
+          nextText: '>',
+          prevText: '<'
+        });
+      });
+    </script>
     
 </body>
 </html>
