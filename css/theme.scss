@@ -18,6 +18,22 @@ p{
 //Header Section
 header{
   background: url('../images/bg.png');
+  .nav{
+     margin-top: 38px;
+    .logo{
+      display: block;
+      text-indent: -9999px;
+      overflow: hidden;
+      background: url("../images/apptastico-logo.png");
+      width: 155px;
+      padding: 13px;
+      z-index: 2;
+      &:hover{
+        background-color: transparent;
+        opacity: .5;
+      }
+    }
+  }
 }
 
 
